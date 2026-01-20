@@ -15,3 +15,10 @@ export interface IExperienceProps {
     worktype: string
     date: string
 }
+
+export interface ICourseProps {
+    children: ReactNode
+    school: string
+    date: string
+    title: string
+}
