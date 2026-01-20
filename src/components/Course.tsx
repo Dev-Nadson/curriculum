@@ -8,7 +8,7 @@ export function Course() {
                 </div>
                 <h2>data inicio - fim</h2>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eos ex perspiciatis alias quia vitae, voluptate ullam laboriosam facilis non reprehenderit, cum exercitationem repellat? Voluptas debitis aperiam cupiditate ea et!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eos ex perspiciatis alias quia vitae, voluptate ullam laboriosam facilis non reprehenderit, cum exercitationem repellat? Voluptas debitis aperiam et!</p>
         </div>
     )
 }

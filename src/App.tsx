@@ -19,15 +19,17 @@ function App() {
       <div className="flex flex-col items-center gap-4 font-serif">
         <header className="flex flex-col items-center leading-12">
           <h1 className="text-[2.5rem] mx-10">
-            PEDRO HENRIQUE DE
-            O. DA SILVA
+            PEDRO HENRIQUE DE O. DA SILVA
           </h1>
           <LinksGroup data={items} />
         </header>
 
         <div className="flex flex-col gap-1.5 w-full">
           <Separator title="Cursos e Formações" />
-          <div className="flex flex-col ml-4 gap-2">
+          <div className="flex flex-col gap-2">
+            <Course />
+            <Course />
+            <Course />
             <Course />
             <Course />
           </div>
@@ -36,15 +38,11 @@ function App() {
         <div className="flex flex-col gap-2">
           <Separator title="Experiencias" />
 
-          <div className="flex flex-col ml-4 gap-2">
+          <div className="flex flex-col gap-2">
             <Experience enterprise="MASTERDRIVE IMPORTAÇÃO" date="Janeiro 2023 - Atual" role="Auxiliar Administrativo - Suporte em TI" worktype="Presencial">
-              Atuo na gestão do sistema ERP da empresa, prestando suporte técnico, realizando
-              configurações e treinando novos usuários para garantir o uso eficiente da plataforma. Sou
-              responsável pela montagem, manutenção e reparo de máquinas, bem como pela
-              estruturação, cabeamento e organização do sistema de redes. Além disso, lidero o setor de
-              helpdesk, oferecendo suporte direto aos colaboradores e solucionando demandas
-              relacionadas a hardware, software e conectividade, garantindo o bom funcionamento dos
-              recursos de TI da empresa.
+              Atuo na gestão do sistema ERP da empresa, prestando suporte técnico, realizando configurações e treinando novos usuários para garantir o uso eficiente da plataforma. Sou
+              responsável pela montagem, manutenção e reparo de máquinas, bem como pela estruturação, cabeamento e organização do sistema de redes. Além disso, lidero o setor dehelpdesk,
+              oferecendo suporte direto aos colaboradores e solucionando demandasrelacionadas a hardware, software e conectividade, garantindo o bom funcionamento dos recursos de TI da empresa.
             </Experience>
           </div>
         </div>
