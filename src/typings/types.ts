@@ -1,6 +1,4 @@
 import type { LucideIcon } from "lucide-react"
-import type { ReactNode } from "react"
-
 export interface IInfoProps {
     icon: LucideIcon
     text: string
@@ -9,7 +7,7 @@ export interface IInfoProps {
 }
 
 export interface IExperienceProps {
-    children: ReactNode
+    description: string[]
     enterprise: string
     role: string
     worktype: string
@@ -17,8 +15,16 @@ export interface IExperienceProps {
 }
 
 export interface ICourseProps {
-    children: ReactNode
+    description?: String
     school: string
     date: string
     title: string
+}
+
+export interface Data {
+    Nome: string
+    Links: IInfoProps[]
+    Sobre: string
+    Experiencias: IExperienceProps[]
+    CursosEFormacoes: ICourseProps[]
 }
