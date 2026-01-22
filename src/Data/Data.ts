@@ -16,7 +16,11 @@ import type { Data } from "../typings/types";
 //            date: "Janeiro 2023 - Atual",
 //            role: "Auxiliar Administrativo - Suporte em TI",
 //            worktype: "Presencial",
-//            description: "Atuo na gestão do sistema ERP da empresa, prestando suporte técnico, realizando configurações e treinando novos usuários para garantir o uso eficiente da plataforma. Sou responsável pela montagem, manutenção e reparo de máquinas, bem como pela estruturação, cabeamento e organização do sistema de redes. Além disso, lidero o setor de helpdesk, oferecendo suporte direto aos colaboradores e solucionando demandasrelacionadas a hardware, software e conectividade, garantindo o bom funcionamento dos recursos de TI da empresa."
+//            description: [
+//                "- Gerenciei o sistema ERP da empresa, prestando suporte técnico, realizando configurações e treinando aproximadamente 20 usuários, garantindo a utilização eficiente, contínua e padronizada da plataforma.",
+//                "- Executei a montagem, manutenção e reparo de mais de 30 máquinas, além da estruturação, cabeamento e organização da rede corporativa, assegurando estabilidade, desempenho e padronização da infraestrutura de TI.",
+//                "- Liderei o setor de helpdesk, oferecendo suporte direto aos colaboradores em demandas de hardware, software e conectividade, reduzindo falhas operacionais e garantindo o pleno funcionamento dos recursos tecnológicos da empresa.",
+//            ]
 //        }
 //    ],
 //    CursosEFormacoes: [
@@ -54,7 +58,7 @@ export const USER: Data = {
         { icon: Linkedin, text: "Nadson Alex", url: "https://linkedin.com/in/dev-nadson", link: true },
         { icon: Github, text: "Dev-Nadson", url: "https://github.com/Dev-Nadson", link: true }
     ],
-    Sobre: "Me chamo Nadson, sou um desenvolvedor Fullstack focado em desenvolvimento backend. Atualmente estou graduando em Ciências da Computação na Unifavip, com bolsa integral pelo PROUNI. Busco sempre criar APIs robustas, escaláveis e modernas, utilizando todo ecossistema Nodejs, principalmente a stack Fastify + Typescript e PostgreSQL como banco de dados, viso também construir interfaces amigáveis e responsivas com Nextjs, React e TailwindCSS",
+    Sobre: "Sou um desenvolvedor Fullstack focado em desenvolvimento backend. Graduando em Ciências da Computação na Unifavip, com bolsa integral pelo PROUNI. Busco criar APIs robustas, escaláveis e modernas, utilizando todo ecossistema Nodejs, principalmente a stack Fastify + Typescript e PostgreSQL como banco de dados, viso também construir interfaces amigáveis e responsivas com Nextjs, React e TailwindCSS",
     Experiencias: [
         {
             enterprise: "CATSUC LABS",
@@ -72,17 +76,22 @@ export const USER: Data = {
         },
         {
             enterprise: "PANIFICADORA JR",
-            date: "Janeiro 2023 - Atual",
-            role: "Auxiliar Administrativo - Suporte em TI",
+            date: "Janeiro 2023 - Dezembro 2024",
+            role: "Balconista em padaria",
             worktype: "Presencial",
-            description: ["", ""]
+            description: [
+                "- Atendi em média 50 clientes por dia com simpatia, garantindo uma experiência agradável e de qualidade por meio de uma comunicação clara.",
+                "- Auxiliei na escolha de produtos e no preparo de pedidos, aumentando a satisfação, agilidade no atendimento e organização.",
+                "- Aprimorei minha comunicação e gestão de tempo, mantendo eficiência mesmo em horários de pico.",
+                "- Desenvolvi flexibilidade e firmeza sob pressão, mantendo a qualidade do atendimento."
+            ]
         }
     ],
     CursosEFormacoes: [
         {
             title: "Bacharelado em Ciências da Computação",
             school: "UNIFAVIP WYDEN",
-            date: "Fev 2025 - Atual",
+            date: "Fevereiro 2025 - Atual",
             description: "Redes de Computadores, Arquitetura de Computadores, Programação de Software em C, Estrutura de Dados, Estruturas de Dados, Git, Github"
         },
         {
@@ -93,9 +102,9 @@ export const USER: Data = {
         },
         {
             title: "Ensino Médio",
-            school: "SESI - JOSÉ RANULFO DA COSTA QUEIROZ",
-            date: "Fev 2025 - Atual",
-            description: ""
+            school: "Escola de Referência em Ensino Médio de Panelas",
+            date: "Março 2025 - Dezembro 2023",
+            description: "Medalhista de Prata na Olimpíada Brasileira de Geografia - Menção Honrosa na Olimpíada Brasileira de Química"
         }
     ]
 }
