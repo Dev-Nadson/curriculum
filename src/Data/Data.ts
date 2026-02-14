@@ -95,12 +95,6 @@ export const USER: Data = {
             description: "Redes de Computadores, Arquitetura de Computadores, Programação de Software em C, Estrutura de Dados, Estruturas de Dados, Git, Github"
         },
         {
-            title: "Formação FullStack",
-            school: "Rocketseact",
-            date: "380 Horas",
-            description: "HTML, CSS, ReactJs, Nodejs, Javascript, Typescript, TailwindCSS, Fastify, Docker, Banco de dados, SQL, PostgreSQL"
-        },
-        {
             title: "Ensino Médio",
             school: "Escola de Referência em Ensino Médio de Panelas",
             date: "Março 2025 - Dezembro 2023",
