@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import type { Data } from "../typings/types";
 
 //export const USER: Data = {
@@ -52,11 +52,13 @@ import type { Data } from "../typings/types";
 
 export const USER: Data = {
     Nome: "NADSON ALEX DA SILVA",
+    SubTitulo: "Desenvolvedor Fullstack",
     Links: [
-        { icon: Phone, text: "(81) 989785231", url: "", link: true },
+        { icon: Phone, text: "(81) 989785231", url: "tel:5581989785231", link: true },
         { icon: Mail, text: "nadson.pros@gmail.com", url: "mailto:nadson.pros@gmail.com", link: true },
-        { icon: Linkedin, text: "Nadson Alex", url: "https://linkedin.com/in/dev-nadson", link: true },
-        { icon: Github, text: "Dev-Nadson", url: "https://github.com/Dev-Nadson", link: true }
+        { icon: Linkedin, text: "linkedin.com/in/nadson-alex", url: "https://linkedin.com/in/nadson-alex", link: true },
+        { icon: Github, text: "github.com/Dev-Nadson", url: "https://github.com/Dev-Nadson", link: true },
+        //{ icon: MapPin, text: "Caruaru, PE", url: "", link: false }
     ],
     Sobre: "Sou um desenvolvedor Fullstack focado em desenvolvimento backend. Graduando em Ciências da Computação na Unifavip, com bolsa integral pelo PROUNI. Busco criar APIs robustas, escaláveis e modernas, utilizando todo ecossistema Nodejs, principalmente a stack Fastify + Typescript e PostgreSQL como banco de dados, viso também construir interfaces amigáveis e responsivas com Nextjs, React e TailwindCSS",
     Experiencias: [
@@ -66,24 +68,21 @@ export const USER: Data = {
             role: "Técnico de suporte em TI",
             worktype: "Presencial",
             description: [
-                "- Atendimento direto ao cliente, realizando triagem e decomposição de problemas para oferecer soluções rápidas e personalizadas.",
-                "- Monitoramento e prevenção de quedas ocasionais em servidores Linux(Ubuntu e CentOS), garantindo estabilidade e reduzindo falhas de conexão com bancos de dados em 94% (de 52 para 3 ocorrências).",
-                "- Utilização de ferramentas como systemctl, netstat e journalctl para análise de processos, logs e diagnóstico de incidentes.",
-                "- Transferência de arquivos entre máquinas virtuais e otimização de desempenho de servidores.",
-                "- Conexão de bancos de dados postgreSQL, com identificação e correção de falhas.",
-                "- Auxiliar no desenvolvimento de scripts em Python, utilizando bibliotecas como Typer para estruturação de CLIs e Pandas para análise de dados"
+                "- Monitoramento de servidores Linux (Ubuntu/CentOS), reduzindo falhas de conexão com bancos de dados em 94% (de 52 para 3 ocorrências).",
+                "- Desenvolvimento de scripts em Python com bibliotecas Typer (CLIs) e Pandas para análise e automação de dados.",
+                "- Diagnóstico de incidentes em tempo real utilizando systemctl, netstat e análise de logs com journalctl.",
+                "- Gestão e correção de falhas em bancos de dados PostgreSQL e otimização de performance de servidores.",
+                "- Atendimento direto ao cliente com foco em triagem técnica e decomposição de problemas complexos.",
             ]
         },
         {
             enterprise: "PANIFICADORA JR",
             date: "Janeiro 2023 - Dezembro 2024",
-            role: "Balconista em padaria",
+            role: "Balconista / Atendimento ao Cliente",
             worktype: "Presencial",
             description: [
-                "- Atendi em média 50 clientes por dia com simpatia, garantindo uma experiência agradável e de qualidade por meio de uma comunicação clara.",
-                "- Auxiliei na escolha de produtos e no preparo de pedidos, aumentando a satisfação, agilidade no atendimento e organização.",
-                "- Aprimorei minha comunicação e gestão de tempo, mantendo eficiência mesmo em horários de pico.",
-                "- Desenvolvi flexibilidade e firmeza sob pressão, mantendo a qualidade do atendimento."
+                "- Atendimento de alta volumetria (média de 50 clientes/dia), garantindo agilidade e satisfação no serviço.",
+                "- Desenvolvimento de soft skills essenciais como gestão de tempo, comunicação clara e trabalho sob pressão em horários de pico.",
             ]
         }
     ],
@@ -92,13 +91,23 @@ export const USER: Data = {
             title: "Bacharelado em Ciências da Computação",
             school: "UNIFAVIP WYDEN",
             date: "Fevereiro 2025 - Atual",
-            description: "Redes de Computadores, Arquitetura de Computadores, Programação de Software em C, Estrutura de Dados, Estruturas de Dados, Git, Github"
+            description: "Foco em Redes, Arquitetura de Computadores, Estrutura de Dados e Programação em C. Prática constante com Git e GitHub."
         },
         {
             title: "Ensino Médio",
             school: "Escola de Referência em Ensino Médio de Panelas",
-            date: "Março 2025 - Dezembro 2023",
-            description: "Medalhista de Prata na Olimpíada Brasileira de Geografia - Menção Honrosa na Olimpíada Brasileira de Química"
+            date: "Fevereiro 2021 - Dezembro 2023",
+            description: "Medalhista de Prata na Olimpíada Brasileira de Geografia e Menção Honrosa na Olimpíada Brasileira de Química."
+        }
+    ],
+    Competencias: [
+        {
+            data: [
+                "Backend: Node.js, Fastify, TypeScript, Python (Pandas/Typer), PostgreSQL",
+                "Frontend: React, Next.js, TailwindCSS",
+                "Infraestrutura: Linux (Ubuntu/CentOS), Redes, Gestão de Logs, Git/GitHub"
+
+            ]
         }
     ]
 }

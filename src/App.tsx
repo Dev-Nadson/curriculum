@@ -3,6 +3,7 @@ import { Experience } from "./components/Experience"
 import { Header } from "./components/Header"
 import { USER } from "./Data/Data"
 import { Course } from "./components/Course"
+import { Competence } from "./components/Competences"
 
 function App() {
   return (
@@ -34,6 +35,15 @@ function App() {
             <Course courses={USER.CursosEFormacoes} />
           </div>
         </div>
+
+        <div className="flex flex-col gap-1.5 w-full">
+          <Separator title="Competências" />
+
+          <div className="flex flex-col gap-2">
+            <Competence Competences={USER.Competencias} />
+          </div>
+        </div>
+
       </div>
     </body>
   )

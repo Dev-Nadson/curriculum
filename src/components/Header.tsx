@@ -2,10 +2,13 @@ import { LinksGroup } from "./LinksGroup";
 
 export function Header(props: { data: any }) {
     return (
-        <header className="flex flex-col items-center leading-12 ">
+        <header className="flex flex-col items-center leading-8 ">
             <h1 className="text-[2.5rem] mx-10">
                 NADSON ALEX DA SILVA
             </h1>
+            <h3 className="text-[1.25rem]">
+                Desenvolvedor Fullstack
+            </h3>
             <LinksGroup data={props.data} />
         </header>
     )

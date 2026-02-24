@@ -21,10 +21,16 @@ export interface ICourseProps {
     title: string
 }
 
+export interface ICompetencesProps {
+    data: string[]
+}
+
 export interface Data {
     Nome: string
+    SubTitulo: string
     Links: IInfoProps[]
     Sobre: string
     Experiencias: IExperienceProps[]
     CursosEFormacoes: ICourseProps[]
+    Competencias: ICompetencesProps[]
 }
