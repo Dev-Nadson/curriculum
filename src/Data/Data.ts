@@ -60,11 +60,28 @@ export const USER: Data = {
         { icon: Github, text: "github.com/Dev-Nadson", url: "https://github.com/Dev-Nadson", link: true },
         //{ icon: MapPin, text: "Caruaru, PE", url: "", link: false }
     ],
-    Sobre: "Sou um desenvolvedor Fullstack focado em desenvolvimento backend. Graduando em Ciências da Computação na Unifavip, com bolsa integral pelo PROUNI. Busco criar APIs robustas, escaláveis e modernas, utilizando todo ecossistema Nodejs, principalmente a stack Fastify + Typescript e PostgreSQL como banco de dados, viso também construir interfaces amigáveis e responsivas com Nextjs, React e TailwindCSS",
+    Sobre: "",
+    // Sobre: "Sou um desenvolvedor Fullstack focado em desenvolvimento backend. Graduando em Ciências da Computação na Unifavip, com bolsa integral pelo PROUNI. Busco criar APIs robustas, escaláveis e modernas, utilizando todo ecossistema Nodejs, principalmente a stack Fastify + Typescript e PostgreSQL como banco de dados, viso também construir interfaces amigáveis e responsivas com Nextjs, React e TailwindCSS",
     Experiencias: [
         {
             enterprise: "CATSUC LABS",
-            date: "Julho 2025 - Atual",
+            date: "Maio 2026 - Atual",
+            role: "Desenvolvedor Fullstack Júnior",
+            worktype: "Presencial",
+            description: [
+                "- Desenvolvimento front-end utilizando Next.js, React e TypeScript, com integração de APIs via Axios.",
+                "- Criação e validação de formulários com React Hook Form e Zod, garantindo melhor controle de estado e performance.",
+                "- Desenvolvimento back-end com Node.js, Fastify e TypeScript.",
+                "- Deploy e manutenção de aplicações em servidores Linux Ubuntu.",
+                "- Manipulação e gestão de banco de dados PostgreSQL com Knex.js.",
+                "- Escrita de queries SQL avançadas para relatórios, utilizando JOINs, GROUP BY e outras operações complexas.",
+                "- Uso de Docker com Docker Compose para ambientes de desenvolvimento e Dockerfile para build e deploy de aplicações.",
+                "- Implementação de testes automatizados utilizando Vitest.",
+            ]
+        },
+        {
+            enterprise: "",
+            date: "Julho 2025 - Maio 2026",
             role: "Técnico de suporte em TI",
             worktype: "Presencial",
             description: [
@@ -92,6 +109,12 @@ export const USER: Data = {
             school: "UNIFAVIP WYDEN",
             date: "Fevereiro 2025 - Atual",
             description: "Foco em Redes, Arquitetura de Computadores, Estrutura de Dados e Programação em C. Prática constante com Git e GitHub."
+        },
+        {
+            title: "Certificação em Desenvolvimento Fullstack",
+            school: "Rocketseat",
+            date: "2025 - 380 Horas",
+            description: "JavaScript, Node.js, Fastify, TypeScript, PostgreSQL, SQL, Knex, React, Next, TailwindCSS. Desenvolvimento de projetos práticos e aplicação de boas práticas de desenvolvimento."
         },
         {
             title: "Ensino Médio",

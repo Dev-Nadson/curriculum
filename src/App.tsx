@@ -1,4 +1,4 @@
-import { Separator } from "./components/Separator"
+import { Separator } from "./components/ui/Separator"
 import { Experience } from "./components/Experience"
 import { Header } from "./components/Header"
 import { USER } from "./Data/Data"
